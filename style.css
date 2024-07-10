@@ -1,0 +1,107 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 5%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+#profileBg
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 520px;
+    border-radius: 12px;
+    margin-top: 5%;
+    background-color: hsl(0, 0%, 12%);
+}
+
+#avatarImg
+{
+    border-radius: 360px;
+    margin-top: 12%;
+}
+
+@font-face {
+    font-family: testFont;
+    src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: semiBold;
+    src: url("assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: regularFont;
+    src: url("assets/fonts/static/Inter-Regular.ttf");
+}
+
+#avatarName
+{
+    font-family: testFont;
+    margin-top: 37%;
+    position: absolute;
+    font-size: 1.4em;
+}
+
+#location
+{
+    color: hsl(75, 94%, 57%);
+    font-family: semiBold;
+    margin-top: 47%;
+    position: absolute;
+    font-size: 0.8em;
+}
+
+#desc
+{
+    font-family: regularFont;
+    margin-top: 58%;
+    position: absolute;
+    font-size: 0.75em;
+}
+
+button
+{
+    background-color: hsl(0, 0%, 20%);
+    height: 5.5vh;
+    width: 18vw;
+    font-family: semiBold;
+    color: white;
+    position: absolute;
+    margin-top: 70%;
+    border-radius: 6px;
+    border-style: none;
+}
+
+#frontBtn
+{
+    margin-top: 87%;
+}
+
+#linkedBtn
+{
+    margin-top: 104%;
+}
+
+#twitBtn
+{
+    margin-top: 121%;
+}
+
+#insBtn
+{
+    margin-top: 138%;
+}
+
+button:hover
+{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
